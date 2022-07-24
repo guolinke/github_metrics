@@ -12,9 +12,9 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          user: StrikerRUS
-          commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
-          config_timezone: Europe/Moscow
+          user: guolinke
+          commits_authoring: guolinke, ${{ secrets.AUTHOR_EMAILS }}
+          config_timezone: Asia/China
           template: classic
           repositories: 1000
           repositories_batch: 2
@@ -34,7 +34,6 @@ jobs:
           plugin_habits_charts: yes
 
           plugin_languages: yes
-          plugin_languages_skipped: BayesWitnesses/m2cgen
           plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
