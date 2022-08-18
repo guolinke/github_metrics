@@ -19,7 +19,7 @@ jobs:
           repositories: 1000
           repositories_batch: 2
           repositories_affiliations: owner, collaborator, organization_member
-          config_order: base.header, base.activity+community, isocalendar, habits, languages, notable, followup, reactions, stargazers
+          config_order: base.header, base.activity+community, isocalendar, habits, languages, notable, reactions, stargazers
 
           base: header, activity
           base_indepth: yes
@@ -44,9 +44,6 @@ jobs:
           plugin_notable_repositories: no
           plugin_notable_types: commit, pull_request, issue
 
-          plugin_followup: yes
-          plugin_followup_sections: user
-          plugin_followup_indepth: yes
 
           plugin_reactions: yes
           plugin_reactions_limit: 1000
