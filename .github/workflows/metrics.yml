@@ -14,7 +14,7 @@ jobs:
 
           user: guolinke
           commits_authoring: guolinke, ${{ secrets.AUTHOR_EMAILS }}
-          config_timezone: Asia/China
+          config_timezone: Asia/Shanghai
           template: classic
           repositories: 1000
           repositories_batch: 2
